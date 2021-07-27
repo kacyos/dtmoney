@@ -16,6 +16,7 @@ createServer({
           title: "Freela de Web site",
           type: "deposit",
           amount: 6000,
+          category: "Freela",
           createdAt: new Date("2021-02-12 09:00:00"),
         },
         {
@@ -23,6 +24,7 @@ createServer({
           title: "Aluguel",
           type: "withdraw",
           amount: 300,
+          category: "Despesa",
           createdAt: new Date("2021-05-08 12:00:00"),
         },
       ],
